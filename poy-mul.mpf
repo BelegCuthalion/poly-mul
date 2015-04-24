@@ -11,7 +11,17 @@ begin
 end;
 
 begin
+	for i:=0 to n do
+		Readln(a[i]);
+
+	for i:=0 to n do
+		Readln(b[i]);
+
 	forall i:=0 to n do
 		forall j:=0 to n do
 			mul(i, j);
+
+	for i:=0 to 2*n do
+		Writeln(c[i]);
+	
 end.
