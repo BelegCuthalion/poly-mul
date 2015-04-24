@@ -11,5 +11,7 @@ begin
 end;
 
 begin
-	;
+	forall i:=0 to n do
+		forall j:=0 to n do
+			mul(i, j);
 end.
