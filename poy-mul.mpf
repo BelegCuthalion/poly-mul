@@ -4,7 +4,6 @@ const n=2;
 var a, b : array[0..n] of real, c: array[0..2*n-1];
 
 procedure mul(i, j: integer);
-	var ;
 begin
 	;
 end;
