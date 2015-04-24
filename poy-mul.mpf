@@ -1,0 +1,14 @@
+program polyMul;
+architecture shared (10);
+const n=2;
+var c : array[0..n] of real;
+
+procedure mul(index: integer);
+	var ;
+begin
+	;
+end;
+
+begin
+	;
+end.
